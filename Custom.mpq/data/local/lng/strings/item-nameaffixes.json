@@ -53,13 +53,13 @@
   {
     "id": 1727,
     "Key": "Hiquality",
-    "enUS": "(Superior)",
+    "enUS": "Superior",
     "zhTW": "特等的",
     "deDE": "[fs]gute[ms]guter[ns]gutes[pl]gute",
     "esES": "[fs]superior[ms]superior[fp]superiores[mp]superiores",
     "frFR": "[ms]supérieur[fs]supérieure[mp]supérieurs[fp]supérieures",
     "itIT": "[fs]Superiore[ms]Superiore[fp]Superiori[mp]Superiori",
-    "koKR": "(고급)",
+    "koKR": "[고급]",
     "plPL": "Dobrej Jakości",
     "esMX": "[ms]superior[fs]superior[mp]superiores[fp]superiores",
     "jaJP": "上質な",
@@ -3459,7 +3459,7 @@
     "esES": "de oro",
     "frFR": "or",
     "itIT": "oro",
-    "koKR": "금화",
+    "koKR": "G",
     "plPL": "szt. złota",
     "esMX": "Oro",
     "jaJP": "ゴールド",
@@ -3476,7 +3476,7 @@
     "esES": "Zafiro",
     "frFR": "Saphir",
     "itIT": "Zaffiro",
-    "koKR": "사파이어",
+    "koKR": "ÿcN사파이어ÿc0",
     "plPL": "Szafir",
     "esMX": "[ms]Zafiro",
     "jaJP": "サファイア",
@@ -3493,7 +3493,7 @@
     "esES": "Esmeralda",
     "frFR": "Émeraude",
     "itIT": "Smeraldo",
-    "koKR": "에메랄드",
+    "koKR": "ÿc2에메랄드ÿc0",
     "plPL": "Szmaragd",
     "esMX": "[fs]Esmeralda",
     "jaJP": "エメラルド",
@@ -3510,7 +3510,7 @@
     "esES": "Rubí",
     "frFR": "Rubis",
     "itIT": "Rubino",
-    "koKR": "루비",
+    "koKR": "ÿcU루비ÿc0",
     "plPL": "Rubin",
     "esMX": "[ms]Rubí",
     "jaJP": "ルビー",
@@ -3527,7 +3527,7 @@
     "esES": "Diamante",
     "frFR": "Diamant",
     "itIT": "Diamante",
-    "koKR": "다이아몬드",
+    "koKR": "ÿc5다이아몬드ÿc0",
     "plPL": "Diament",
     "esMX": "[ms]Diamante",
     "jaJP": "ダイアモンド",
@@ -9551,7 +9551,7 @@
     "jaJP": "ゴーレム王が携えし",
     "ptBR": "[fs]Golêmica[ms]Golêmico[fp]Golêmicas[mp]Golêmicos",
     "ruRU": "[ms]големный[fs]големная[ns]големное[pl]големные",
-    "zhCN": "魔像领主的"
+    "zhCN": "傀儡领主的"
   },
   {
     "id": 20777,
@@ -15705,7 +15705,7 @@
     "jaJP": "ファイアゴーレムの",
     "ptBR": "do Golem de Fogo",
     "ruRU": "огненного голема",
-    "zhCN": "火焰魔像之"
+    "zhCN": "火焰傀儡之"
   },
   {
     "id": 21139,
@@ -15773,7 +15773,7 @@
     "jaJP": "アイアンゴーレムの",
     "ptBR": "do Golem de Ferro",
     "ruRU": "железного голема",
-    "zhCN": "钢铁魔像之"
+    "zhCN": "钢铁傀儡之"
   },
   {
     "id": 21143,
@@ -15841,7 +15841,7 @@
     "jaJP": "ブラッドゴーレムの",
     "ptBR": "do Golem de Sangue",
     "ruRU": "кровяного голема",
-    "zhCN": "鲜血魔像之"
+    "zhCN": "鲜血傀儡之"
   },
   {
     "id": 21147,
@@ -15994,7 +15994,7 @@
     "jaJP": "クレイゴーレムの",
     "ptBR": "do Golem de Barro",
     "ruRU": "глиняного голема",
-    "zhCN": "黏土魔像之"
+    "zhCN": "黏土傀儡之"
   },
   {
     "id": 21156,

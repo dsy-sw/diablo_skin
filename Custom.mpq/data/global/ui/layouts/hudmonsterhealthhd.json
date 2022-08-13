@@ -1,0 +1,160 @@
+{
+    "type": "MonsterHealthPanel",
+    "name": "HUDMonsterHealth",
+    "fields": {
+        "priority": -100,
+        "anchor": {
+            "x": 0.5
+        },
+        "rect": {
+            "y": 63
+        }
+    },
+    "children": [
+        {
+            "type": "HealthBarWidget",
+            "name": "Health",
+            "fields": {
+                "rect": {
+                    "y": -5,
+                    "height": 70
+                }, //체력바위치 세로크기
+                "normalColor": {
+                    "r": 0.31,
+                    "g": 0,
+                    "b": 0
+                }, //체력바색상 >> 빨강 { "r": 0.31, "g": 0, "b": 0 }  녹색 { "r": 0, "g": 0.15, "b": 0 }
+                "transparency": 0.75, //체력투명도
+                "backgroundTransparency": 0.75, //바탕투명도
+                "criticalHealthPercent": 0, //n% 아래로주황
+                "warningHealthPercent": 0, //n% 아래로노랑
+                "drawWhenEmpty": true
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget",
+                    "name": "Name",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": -2,
+                            "scale": 0.7
+                        }, //몬스터이름위치
+                        "anchor": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "style": {
+                            "pointSize": "$LargeFontSize",
+                            "alignment": {
+                                "h": "center",
+                                "v": "center"
+                            },
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            }
+                        }
+                    }
+                },
+            ]
+        },
+        {
+            "type": "GrowableImageWidget",
+            "name": "UniqueMonsterBackground",
+            "rect": {
+                "x": -500,
+                "y": 0
+            }, //유니크몹 테두리위치
+            "fields": {
+                "filename": "Controller/HUD/MonsterHealth/monster_healthbar_unique",
+                "leftCap/filename": "Controller/HUD/MonsterHealth/monster_healthbar_unique_left_cap",
+                "rightCap/filename": "Controller/HUD/MonsterHealth/monster_healthbar_unique_right_cap",
+                "leftCapOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "rightCapOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "placeCapsOutsideRect": true
+            },
+            "children": [
+                {
+                    "type": "ImageWidget",
+                    "name": "BottomCap",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5,
+                            "y": 1
+                        },
+                        "rect": {
+                            "x": -60
+                        },
+                        "filename": "Controller/HUD/MonsterHealth/monster_healthbar_unique_bottom_cap"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "GrowableImageWidget",
+            "name": "NormalMonsterBackground",
+            "rect": {
+                "x": -500,
+                "y": -26
+            }, //일반몹 테두리위치
+            "fields": {
+                "filename": "Controller/HUD/MonsterHealth/monster_healthbar_normal",
+                "leftCap/filename": "Controller/HUD/MonsterHealth/monster_healthbar_normal_left_cap",
+                "rightCap/filename": "Controller/HUD/MonsterHealth/monster_healthbar_normal_right_cap",
+                "leftCapOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "rightCapOffset": {
+                    "x": 0,
+                    "y": 0
+                },
+                "placeCapsOutsideRect": true
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "Unique",
+            "fields": {
+                "rect": {
+                    "y": 85
+                }, //몹능력치 표시위치
+                "style": {
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": {
+                        "h": "center"
+                    },
+                    "options": {
+                        "pipeCharacterBehavior": "handle"
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "Additional",
+            "fields": {
+                "rect": {
+                    "y": 138
+                }, //몹면역 표시위치
+                "style": {
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumFontSize",
+                    "alignment": {
+                        "h": "center"
+                    },
+                    "options": {
+                        "pipeCharacterBehavior": "handle"
+                    }
+                }
+            }
+        }
+    ]
+}
